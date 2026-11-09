@@ -135,9 +135,9 @@ class HelloWorld
         List<HabitacionHotel> habitaciones =
         new List<HabitacionHotel>();
 
-        habitaciones.Add(new HabitacionHotel(101, "Individual", 80000));
+        habitaciones.Add(new HabitacionHotel(101, "Individual", 40000));
         habitaciones.Add(new HabitacionHotel(202, "Doble", 120000));
-        habitaciones.Add(new HabitacionHotel(303, "Suite", 200000));
+        habitaciones.Add(new HabitacionHotel(303, "Suite", 3000000));
 
         // Reservas iniciales
         habitaciones[0].Reservar("Samuel Montiel");
